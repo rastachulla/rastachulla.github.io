@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #0F0F0F;
+    font-family: Inter;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.emphasis{
+    color: #FFFFFF;
+}
+.right img{
+    width: 100%;
+    object-fit: cover; 
+}
+#bigname{
+    font-family: Inter;
+    font-weight: 800;
+    color: #FFFFFF;
+    line-height: 100%;
+    letter-spacing: -5px;
+}
+#wrapper{
+    display: flex;
+    gap: 20px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#desc{
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 1.6em;
+    width: 522px;
+    color: #848484;
+    margin-top: 20px;
+    margin-bottom: 108px;
+}
+.sociallinks{
+    color: #FFFFFF;
+    border-top: 1px solid #848484;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+@media (max-width: 1439px) {
+    .right img{
+        height: 524px;
+    }
+    #bigname{
+        font-size: 64px;
+    }
+    #wrapper{
+        margin-left: 40px;
+    }
+    #desc{
+        font-size: 18px;
+    }
+    .left{
+        /* background-color: red; */
+        /* display: inline-block; */
+        flex: 1;
+    }
+    .right{
+        /* background-color: blue; */
+        /* display: flex; */
+        flex: 2;
+    }
+    .sociallinks{
+        font-size: 18px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+}
+
+@media (min-width: 1440px){
+    .sociallinks{
+        font-size: 24px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+    
+    .left{
+        /* background-color: red; */
+        /* display: inline-block; */
+        flex: 1;
+    }
+    .right{
+        /* background-color: blue; */
+        /* display: flex; */
+        flex: 2;
+    }
+    #bigname{
+        font-size: 128px;
+    }
+    #desc{
+        font-size: 24px;
+    }
+    #wrapper{
+        margin-left: 80px;
+    }
+    .right img{
+        height: 884px;
+    }
+}
+
+
