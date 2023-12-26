@@ -111,12 +111,24 @@ a{
         font-size: 5em;
         letter-spacing: -2px;
     }
+    #links{
+        text-align: center;
+        align-self: stretch;
+    }
+    #links div{
+        display: inline-block;
+        width: 30%;
+    }
     .sociallinks{
-        display: inline-flex;
-        border: none;
+        text-align: center;
+        border: 0px;
     }
     .sociallinks span{
         display: none;
+    }
+    .sociallinks img{
+        width: 50%;
+        height: 50%;
     }
     #desc{
         font-size: 1.5em;
