@@ -3,6 +3,10 @@
 * {
     box-sizing: border-box;
 }
+
+.carousel-inner{
+    border-radius: 20px;
+}
 body{
     background-color: #0F0F0F;
     font-family: Inter;
@@ -18,7 +22,7 @@ body{
 .right img{
     width: 100%;
     object-fit: cover; 
-    animation: image 1s ease;
+    animation: image 2s ease;
 }
 #bigname{
     font-family: Inter;
@@ -26,7 +30,7 @@ body{
     color: #FFFFFF;
     line-height: 100%;
     letter-spacing: -5px;
-    animation: anim 1s ease;
+    animation: anim 2s ease;
 }
 @keyframes image {
     0%{
@@ -69,7 +73,7 @@ body{
     color: #848484;
     margin-top: 20px;
     margin-bottom: 108px;
-    animation: anim 2s ease;
+    animation: anim 3s ease;
 }
 .sociallinks{
     color: #FFFFFF;
@@ -79,7 +83,7 @@ body{
     gap: 32px;
     opacity: 0;
     animation: animlinks 1s ease;
-    animation-delay: 2s;
+    animation-delay: 4s;
     animation-fill-mode: forwards;
 }
 a{
