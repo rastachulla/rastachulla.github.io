@@ -161,12 +161,24 @@ a{
         font-size: 64px;
         letter-spacing: -2px;
     }
+    #links{
+        text-align: center;
+        align-self: stretch;
+    }
+    #links div{
+        display: inline-block;
+        width: 30%;
+    }
     .sociallinks{
-        display: inline-flex;
-        border: none;
+        text-align: center;
+        border: 0px;
     }
     .sociallinks span{
         display: none;
+    }
+    .sociallinks img{
+        width: 30%;
+        height: 30%;
     }
     #desc{
         font-size: 24px;
