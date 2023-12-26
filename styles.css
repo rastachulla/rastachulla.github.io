@@ -93,13 +93,12 @@ a{
     background-color: #1E1E1E;
 }
 
-@media (min-width: 360px) and (max-width: 767px) {
+@media (max-width: 767px) {
     #wrapper{
         flex-direction: column-reverse;
         justify-content: center;
         width: 95%;
         margin: auto;
-        height: 100vh;
     }
     .right{
         width: 100%;
