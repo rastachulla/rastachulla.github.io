@@ -20,7 +20,7 @@ body{
     color: #FFFFFF;
 }
 .right img{
-    width: 100%;
+    max-width: 100%;
     object-fit: cover; 
     animation: image 2s ease;
 }
@@ -92,27 +92,26 @@ a{
 .sociallinks:hover{
     background-color: #1E1E1E;
 }
-@media (max-width: 1439px) and (max-height: 899px){
+
+@media (min-width: 1200px) {
     .right img{
         height: 524px;
     }
     #bigname{
         font-size: 64px;
+        letter-spacing: -2px;
     }
     #wrapper{
-        margin-left: 40px;
+        width: 1200px;
+        margin: auto;
     }
     #desc{
-        font-size: 18px;
+        font-size: 20px;
     }
     .left{
-        /* background-color: red; */
-        /* display: inline-block; */
         flex: 1;
     }
     .right{
-        /* background-color: blue; */
-        /* display: flex; */
         flex: 2;
     }
     .sociallinks{
@@ -122,63 +121,36 @@ a{
     }
 }
 
-@media (min-width: 1440px) and (min-height: 550px){
-    .right img{
-        height: 524px;
-    }
-    #bigname{
-        font-size: 64px;
-    }
+@media (min-width: 360px) and (max-width: 1199px){
     #wrapper{
-        margin-left: 40px;
-    }
-    #desc{
-        font-size: 18px;
-    }
-    .left{
-        /* background-color: red; */
-        /* display: inline-block; */
-        flex: 1;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: 0px;
+        height: 100vh;
     }
     .right{
-        /* background-color: blue; */
-        /* display: flex; */
-        flex: 2;
+        flex: 1;
+    }
+    .left{
+        width: 100%;
+        margin-left: 40px;
+        flex: 1;
+    }
+    #bigname{
+        font-size: 12cqw;
+        letter-spacing: -1px;
     }
     .sociallinks{
-        font-size: 18px;
-        padding-top: 8px;
-        padding-bottom: 8px;
+        display: inline-flex;
+        border: none;
     }
-}
-
-@media (min-width: 1440px) and (min-height: 900px){
-    .sociallinks{
+    .sociallinks span{
+        display: none;
+    }
+    #desc{
         font-size: 24px;
-        padding-top: 18px;
-        padding-bottom: 18px;
+        width: auto;
+        align-self: stretch;
     }
     
-    .left{
-        /* background-color: red; */
-        /* display: inline-block; */
-        flex: 1;
-    }
-    .right{
-        /* background-color: blue; */
-        /* display: flex; */
-        flex: 2;
-    }
-    #bigname{
-        font-size: 128px;
-    }
-    #desc{
-        font-size: 24px;
-    }
-    #wrapper{
-        margin-left: 80px;
-    }
-    .right img{
-        height: 884px;
-    }
 }
