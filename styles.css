@@ -97,18 +97,18 @@ a{
     #wrapper{
         flex-direction: column-reverse;
         justify-content: center;
-        width: 95%;
+        width: 100%;
         margin: auto;
     }
     .right{
         width: 100%;
     }
     .left{
-        width: 100%;
-        margin-left: 40px;
+        width: 90%;
+        margin: 10px;
     }
     #bigname{
-        font-size: 5em;
+        font-size: 3em;
         letter-spacing: -2px;
     }
     #links{
@@ -131,12 +131,12 @@ a{
         height: 50%;
     }
     #desc{
-        font-size: 3em;
-        width: auto;
-        align-self: stretch;
+        font-size: 1.4em;
+        width: 100%;
+        margin-bottom: 30px;
     }
     .right img{
-        height: 500px;
+        height: 20em;
     }
 }
 
@@ -154,8 +154,8 @@ a{
         width: 100%;
     }
     .left{
-        width: 100%;
-        margin-left: 40px;
+        width: 90%;
+        margin: 20px;
     }
     #bigname{
         font-size: 64px;
@@ -184,6 +184,7 @@ a{
         font-size: 24px;
         width: auto;
         align-self: stretch;
+        margin-bottom: 40px;
     }
     .right img{
         height: 684px;
