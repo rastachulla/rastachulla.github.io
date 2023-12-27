@@ -114,6 +114,7 @@ a{
     #links{
         text-align: center;
         align-self: stretch;
+        margin-bottom: 30px;
     }
     #links div{
         display: inline-block;
