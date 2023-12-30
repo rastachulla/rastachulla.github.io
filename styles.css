@@ -3,7 +3,12 @@
 * {
     box-sizing: border-box;
 }
-
+.showmobile{
+    display: none;
+    text-decoration-line: underline;
+    color: #848484;
+    padding-top: 10px;
+}
 img:hover {
     opacity: 0.9;
 }
@@ -154,6 +159,9 @@ a {
 }
 
 @media (max-width: 390px) {
+    .showmobile{
+        display: flex;
+    }
     #wrapper {
         width: 90%;
         margin: auto;
@@ -258,6 +266,10 @@ a {
 }
 
 @media (min-width: 391px) and (max-width: 767px) {
+    .showmobile{
+        display: flex;
+    }
+    
     #wrapper {
         width: 90%;
         margin: auto;
