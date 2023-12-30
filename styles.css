@@ -160,7 +160,7 @@ a {
 
 @media (max-width: 390px) {
     .showmobile{
-        display: flex;
+        display: inline-block;
     }
     #wrapper {
         width: 90%;
@@ -267,7 +267,7 @@ a {
 
 @media (min-width: 391px) and (max-width: 767px) {
     .showmobile{
-        display: flex;
+        display: inline-block;
     }
     
     #wrapper {
