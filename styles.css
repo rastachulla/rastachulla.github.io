@@ -9,6 +9,10 @@
     color: #ffffff;
     padding-top: 10px;
 }
+.mobilearrow{
+    display: none;
+    color: #ffffff;
+}
 img:hover {
     opacity: 0.9;
 }
@@ -159,6 +163,9 @@ a {
 }
 
 @media (max-width: 390px) {
+    .mobilearrow{
+        display: inline;
+    }
     .showmobile{
         display: inline-block;
     }
@@ -266,6 +273,9 @@ a {
 }
 
 @media (min-width: 391px) and (max-width: 767px) {
+    .mobilearrow{
+        display: inline;
+    }
     .showmobile{
         display: inline-block;
     }
@@ -419,6 +429,7 @@ a {
         text-align: left;
         color: #848484;
         font-size: 30px;
+        line-height: 1.7em;
     }
 
     .left {
