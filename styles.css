@@ -3,17 +3,25 @@
 * {
     box-sizing: border-box;
 }
-.showmobile{
+
+img {
+    transition: transform 0.3s ease;
+}
+
+.showmobile {
     display: none;
     text-decoration-line: underline;
     color: #ffffff;
     padding-top: 10px;
 }
-.mobilearrow{
+
+.mobilearrow {
     display: none;
     color: #ffffff;
 }
+
 img:hover {
+    transform: scale(1.01);
     opacity: 0.9;
 }
 
@@ -163,12 +171,14 @@ a {
 }
 
 @media (max-width: 390px) {
-    .mobilearrow{
+    .mobilearrow {
         display: inline;
     }
-    .showmobile{
+
+    .showmobile {
         display: inline-block;
     }
+
     #wrapper {
         width: 90%;
         margin: auto;
@@ -273,13 +283,14 @@ a {
 }
 
 @media (min-width: 391px) and (max-width: 767px) {
-    .mobilearrow{
+    .mobilearrow {
         display: inline;
     }
-    .showmobile{
+
+    .showmobile {
         display: inline-block;
     }
-    
+
     #wrapper {
         width: 90%;
         margin: auto;
