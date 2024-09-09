@@ -20,7 +20,7 @@ img {
     color: #ffffff;
 }
 
-img:hover {
+.right2 img:hover {
     transform: scale(1.01);
     opacity: 0.9;
 }
