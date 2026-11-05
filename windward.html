@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Divij Deswal | Windward</title>
+    <style>
+        /* Windward page additions. Everything else comes from styles.css. */
+        .right2 .project {
+            text-align: left;
+        }
+
+        #bigname {
+            margin: 0;
+        }
+
+        .backlink {
+            display: inline-block;
+            color: #848484;
+            font-size: 15px;
+            margin-bottom: 40px;
+        }
+
+        .backlink:hover {
+            color: #FFFFFF;
+        }
+
+        .projectrole {
+            color: #656565;
+            font-size: 16px;
+            margin-top: 14px;
+        }
+
+        .left {
+            overflow-y: auto;
+        }
+
+        .sociallinks {
+            animation-delay: 1s;
+        }
+
+        #links .sociallinks {
+            font-size: 15px;
+        }
+
+        #desc {
+            font-size: 16px;
+            line-height: 1.6em;
+        }
+
+        #links a .sociallinks {
+            color: #848484;
+        }
+
+        #links a:hover .sociallinks,
+        #links a .sociallinks.active {
+            color: #FFFFFF;
+            background-color: #1E1E1E;
+        }
+
+        .right2 .projectheading {
+            margin-bottom: 20px;
+        }
+
+        .screenshot {
+            display: none;
+        }
+
+        .projectsection {
+            margin-top: 188px;
+        }
+
+        .projectheading + .projectsection,
+        #notifications {
+            margin-top: 0;
+        }
+
+        .projectsection .projectimg {
+            margin-top: 0;
+        }
+
+        .right2 img.imgfull {
+            aspect-ratio: auto;
+            object-fit: fill;
+            height: auto;
+        }
+
+        .projectwhen {
+            color: #656565;
+            font-size: 15px;
+            margin-bottom: 14px;
+        }
+
+        .projectlist {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0 0;
+            border-bottom: 1px solid #2A2A2A;
+        }
+
+        .projectlist li {
+            border-top: 1px solid #2A2A2A;
+            padding: 9px 0;
+            font-size: 15px;
+            color: #848484;
+        }
+
+        .projectwith {
+            font-size: 15px;
+            color: #656565;
+            margin-top: 16px;
+        }
+
+        .pagefooter {
+            margin-top: 160px;
+            padding-top: 16px;
+            border-top: 1px solid #2A2A2A;
+            font-size: 14px;
+        }
+
+        @media (max-width: 767px) {
+            .projectsection {
+                margin-top: 108px;
+            }
+        }
+
+        @media (max-width: 1199px) {
+            #links {
+                display: none;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation: none !important;
+                transition: none !important;
+            }
+
+            .sociallinks {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="left">
+            <div>
+                <a class="backlink" href="index.html">&#8592; Divij Deswal</a>
+                <h1 id="bigname">Windward</h1>
+                <div class="projectrole">Product designer, Feb 2024 – Oct 2026</div>
+                <div id="desc">Nearly three years designing a <span class="emphasis">maritime AI</span> platform that
+                    analysts use to track vessels, catch <span class="emphasis">risky behavior</span> at sea and task
+                    <span class="emphasis">satellites</span> to look closer. Along the way I brought <span
+                        class="emphasis">Claude</span> into my process as a working partner across a range of product
+                    design tasks.</div>
+            </div>
+            <div id="links" role="navigation" aria-label="On this page">
+                <a href="#notifications"><div class="sociallinks"><span>Notifications</span></div></a>
+                <a href="#sharing"><div class="sociallinks"><span>Sharing &amp; permissions</span></div></a>
+                <a href="#tasking"><div class="sociallinks"><span>Satellite tasking</span></div></a>
+                <a href="#tagging"><div class="sociallinks"><span>Image tagging &amp; correlation</span></div></a>
+                <a href="#rf"><div class="sociallinks"><span>RF &amp; projected path</span></div></a>
+                <a href="#monitoring"><div class="sociallinks"><span>Area monitoring</span></div></a>
+            </div>
+        </div>
+        <div class="right2">
+            <div class="project">
+                <div class="projectheading">SIX AREAS I OWNED</div>
+
+                <div class="projectsection" id="notifications">
+                    <img class="imgfull" src="notifications.png" alt="Saved query alert email">
+                    <div class="projecttitle" role="heading" aria-level="2">NOTIFICATIONS</div>
+                    <div class="projectwhen">2024–2026, epic owner</div>
+                    <div class="projectdesc">I designed how analysts <span class="projectemphasis">manage every alert from one place</span>, and made what lands in their inbox worth reading, from the home-page inbox to a whole family of emails.</div>
+                    <ul class="projectlist">
+                        <li>Notification inbox, configuration center and digest email</li>
+                        <li>Event and entity emails with an embedded map</li>
+                        <li>Emails for tasking orders, RF approvals, watch-boxes and saved query alerts</li>
+                        <li>An in-product walkthrough for the general release</li>
+                    </ul>
+                    <div class="projectwith">With Dror Salzman, Debby Noy and Mai Armon</div>
+                </div>
+
+                <div class="projectsection" id="sharing">
+                    <img class="projectimg imgfull" src="sharing.png" alt="Sharing indicator on a vessel list card">
+                    <div class="projecttitle" role="heading" aria-level="2">SHARING &amp; PERMISSIONS</div>
+                    <div class="projectwhen">2025–2026, user management and access control</div>
+                    <div class="projectdesc">Analysts build up vessel lists, areas and searches over months. I designed how each one stays <span class="projectemphasis">private, goes to a team or goes company-wide</span>, and what happens when people leave or access breaks.</div>
+                    <ul class="projectlist">
+                        <li>Sharing indicators and permission flows for VOIs, AOIs and saved queries</li>
+                        <li>Transfer of ownership and recovery for broken queries</li>
+                        <li>Sharing for imagery, tasking and archive images</li>
+                        <li>A Frontegg theme and account emails in the design system</li>
+                    </ul>
+                    <div class="projectwith">With Omer Barhanin, Nirit Markovich and Guy Mizrahi</div>
+                </div>
+
+                <div class="projectsection" id="tasking">
+                    <img class="projectimg imgfull" src="tasking.png" alt="Dropping a marker on the search engine map">
+                    <div class="projecttitle" role="heading" aria-level="2">SATELLITE TASKING</div>
+                    <div class="projectwhen">2025–2026, imagery tasking flow</div>
+                    <div class="projectdesc">When an analyst spots something suspicious, they need a fresh image of it. I designed the path <span class="projectemphasis">from a point on the map to a satellite order</span>, and the updates that follow it.</div>
+                    <ul class="projectlist">
+                        <li>Dropping a marker on the search and early-detection maps</li>
+                        <li>Adding it to a tasking, with footprint options and provider</li>
+                        <li>A simpler image acquisition flow inside the map</li>
+                        <li>Status emails for each stage of the order</li>
+                    </ul>
+                    <div class="projectwith">With Gur Sender and Sharon Feldstein</div>
+                </div>
+
+                <div class="projectsection" id="tagging">
+                    <img class="projectimg imgfull" src="imagetagging.png" alt="Marking a vessel the detection model missed">
+                    <div class="projecttitle" role="heading" aria-level="2">IMAGE TAGGING &amp; CORRELATION</div>
+                    <div class="projectwhen">2026, human-in-the-loop imagery</div>
+                    <div class="projectdesc">Detection models miss boats, and correlation sometimes matches the wrong vessel. I designed tools that let people <span class="projectemphasis">correct the AI without leaving their investigation</span>.</div>
+                    <ul class="projectlist">
+                        <li>Marking objects the AI missed, right on the image</li>
+                        <li>Editing detection metadata for internal teams</li>
+                        <li>Overriding a correlation from the vessel card</li>
+                        <li>Transmitting-or-dark status and a PDF export of the MAI Expert report</li>
+                    </ul>
+                    <div class="projectwith">With Debby Noy, Sharon Feldstein and Michaela Sherbu Cohen</div>
+                </div>
+
+                <div class="projectsection" id="rf">
+                    <!-- Placeholder hidden:
+                    <div class="projectimg screenshot" role="img" aria-label="Screenshot coming soon: RF fingerprinting, per-detection flow"><span>SCREENSHOT</span></div> -->
+                    <div class="projecttitle" role="heading" aria-level="2">RF &amp; PROJECTED PATH</div>
+                    <div class="projectwhen">2026, radio-frequency detection and route prediction</div>
+                    <div class="projectdesc">I made radio signals readable by showing <span class="projectemphasis">which detections come from the same emitter</span>, and designed three phases of the projected path, which predicts where a vessel will be when the satellite passes.</div>
+                    <ul class="projectlist">
+                        <li>RF fingerprinting on the map and per detection</li>
+                        <li>Projected path with vessel input and an optional identifier</li>
+                        <li>A coherent route with pre- and post-pass slots</li>
+                        <li>Legend controls moved into the main toolbar</li>
+                    </ul>
+                    <div class="projectwith">With Michaela Sherbu Cohen</div>
+                </div>
+
+                <div class="projectsection" id="monitoring">
+                    <!-- Placeholder hidden:
+                    <div class="projectimg screenshot" role="img" aria-label="Screenshot coming soon: Mission watchboxes in the asset library"><span>SCREENSHOT</span></div> -->
+                    <div class="projecttitle" role="heading" aria-level="2">AREA MONITORING</div>
+                    <div class="projectwhen">2026, with the Vantor partnership</div>
+                    <div class="projectdesc">Area monitoring lets a team <span class="projectemphasis">keep watch over a stretch of sea</span> with recurring imagery. I designed where those missions live, how their images are browsed and how users ask for access.</div>
+                    <ul class="projectlist">
+                        <li>The mission watchboxes tab in the asset library</li>
+                        <li>A new satellite images table to match it</li>
+                        <li>Requesting access to restricted images</li>
+                        <li>The partnership demo used in pre-sales</li>
+                    </ul>
+                    <div class="projectwith">With Debby Noy, Gur Sender and Michaela Sherbu Cohen</div>
+                </div>
+
+                <div class="pagefooter"><a class="backlink" href="index.html">&#8592; Back to all projects</a></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const navLinks = [...document.querySelectorAll("#links a")];
+        if ("IntersectionObserver" in window) {
+            const io = new IntersectionObserver(entries => {
+                entries.forEach(e => {
+                    if (e.isIntersecting) navLinks.forEach(a => a.firstElementChild.classList.toggle("active", a.getAttribute("href") === "#" + e.target.id));
+                });
+            }, { rootMargin: "-40% 0px -55% 0px" });
+            navLinks.forEach(a => { const t = document.querySelector(a.getAttribute("href")); if (t) io.observe(t); });
+        }
+    </script>
+</body>
+
+</html>
